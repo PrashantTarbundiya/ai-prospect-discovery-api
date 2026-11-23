@@ -1,0 +1,14 @@
+test_config_input_and_docs (test_discovery.DiscoveryTests.test_config_input_and_docs) ... ok
+test_consolidation_and_same_name_collision (test_discovery.DiscoveryTests.test_consolidation_and_same_name_collision) ... ok
+test_empty_and_partial (test_discovery.DiscoveryTests.test_empty_and_partial) ... ok
+test_five_assessment_queries (test_discovery.DiscoveryTests.test_five_assessment_queries) ... ok
+test_limits_and_provider_errors (test_discovery.DiscoveryTests.test_limits_and_provider_errors) ... ok
+test_platform_routes (test_discovery.DiscoveryTests.test_platform_routes) ... ok
+test_relevance_and_contact_ownership (test_discovery.DiscoveryTests.test_relevance_and_contact_ownership) ... ok
+test_semantically_invalid_query (test_discovery.DiscoveryTests.test_semantically_invalid_query) ... ok
+test_timeout (test_discovery.DiscoveryTests.test_timeout) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.354s
+
+OK

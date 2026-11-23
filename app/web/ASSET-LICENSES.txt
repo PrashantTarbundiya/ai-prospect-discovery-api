@@ -1,0 +1,8 @@
+The dot map uses Natural Earth 1:110m land geometry, public domain.
+https://www.naturalearthdata.com/about/terms-of-use/
+
+Google, Facebook, LinkedIn, Instagram and YouTube icon outlines come from Font Awesome Free by Fonticons, Inc., distributed under CC BY 4.0. Their display colors were adapted. All brand trademarks belong to their respective owners.
+https://fontawesome.com/license/free
+https://creativecommons.org/licenses/by/4.0/
+
+DM Sans and Instrument Serif are distributed under the SIL Open Font License. See the included OFL files.
