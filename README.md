@@ -117,11 +117,14 @@ The five live checks with the selected model took 15.7–19.7 seconds each, with
 
 ### Streamlit Community Cloud
 
-Deploy the public GitHub repository with `streamlit_app.py` as the entrypoint and Python 3.13. In Advanced settings → Secrets, add the root-level TOML strings `OPENROUTER_API_KEY`, `SERPER_API_KEY` and `OPENROUTER_MODEL` using the values from your private configuration. Streamlit exports root-level secrets as environment variables. Keep the keys in the host's secret store.
+Deploy the public GitHub repository with `streamlit_app.py` as the entrypoint and Python 3.13. In Advanced settings → Secrets, add the root-level TOML strings `OPENROUTER_API_KEY`, `SERPER_API_KEY` and `OPENROUTER_MODEL` using the values from your configuration. Streamlit automatically populates environment variables and `st.secrets`.
 
-The root URL opens the Streamlit search form. Append `/docs` for Swagger or send JSON to `POST /prospect-discovery` on the same host. The Streamlit launcher starts the existing FastAPI service through its ASGI lifespan. Both entry points use the same discovery implementation.
+The Streamlit app acts as the interactive Live Demo: users can run natural-language queries, test person lookups, view consolidated profiles across supported platforms, and export structured JSON responses.
 
-To preview the deployment locally, install `requirements.txt` and run `python -m streamlit run streamlit_app.py`. Free Community Cloud hosting and provider search quotas are separate. [Community Cloud deployment](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy)
+To preview the Streamlit app locally:
+```powershell
+python -m streamlit run streamlit_app.py
+```
 
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
